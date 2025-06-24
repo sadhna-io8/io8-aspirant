@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table 2</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .main-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      background-color: purple;
+    }
+    table {
+      border: 1px solid wheat;
+      width: 100%;
+      height: 100%;
+      border-collapse: collapse;
+      background-color: #f2f2f2;
+    }
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: rgb(19, 19, 74);
+      color: wheat;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+  <body>
+    <h2>Flowers of the week</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Flower</th>
+          <th>Name</th>
+          <th>price</th>
+          <th>height</th>
+          <th>season</th>
+          <th>conditions</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Butterfly bush</td>
+          <td>Buddleja davidii</td>
+          <td>$3.87</td>
+          <td>4.5</td>
+          <td>Summer</td>
+          <td>dry sun</td>
+          <img
+            src="../20250623 html table/butterfly.webp"
+            alt="Butterfly bush"
+            width="100px" />
+        </tr>
+        <tr>
+          <td>pine apple broom</td>
+          <td>cytisus battandieri</td>
+          <td>$45.8</td>
+          <td>4m</td>
+          <td>Eaerly summmer</td>
+          <td>dry sun</td>
+          <img
+            src="../20250623 html table/pineapple.htm"
+            alt="pine apple broom"
+            width="100px" />
+          />
+        </tr>
+        <tr>
+          <td>peony</td>
+          <td>Paeonia lactiflora</td>
+          <td>$2.15</td>
+          <td>60cm</td>
+          <td>Summer</td>
+          <td>Shade</td>
+          <img
+            src="../20250623 html table/500px-PaeoniaSuffruticosa7.jpg"
+            alt="peony" />
+        </tr>
+        <tr>
+          <td>Japanese anemone</td>
+          <td>Anemone hupehensis</td>
+          <td>$4.99</td>
+          <td>90cm</td>
+          <td>Late summer</td>
+          <td>Shade</td>
+          <img src="../20250623 html table/apanese anemone.jpg alt="Japanese
+          anemone" />
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
