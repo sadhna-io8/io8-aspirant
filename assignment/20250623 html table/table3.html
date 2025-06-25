@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table 3</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .table-container {
+      border: 1px solid black;
+      height: 10px;
+      width: 10px;
+    }
+    Table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+    tr {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+    td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    th {
+      background-color: rgb(19, 19, 74);
+      color: wheat;
+      padding: 10px;
+    }
+    .profile-pic {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  </style>
+  <body bgcolor="lightblue">
+    <main class="main-container">
+      <table>
+        <thead>
+          <tr>
+            <th class="text" colspan="5">User</th>
+
+            <tbody>
+              <tr>
+                <td>Picture</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Phone</td>
+                <td>Comments</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img
+                    src="./jane.img"
+                    alt="profile pic"
+                    class="profile image" />
+                </td>
+                <td>Jane Doe</td>
+                <td>jane.doe@foo.com</td>
+                <td>01 800 2000</td>
+                <td>
+                  Loren ipsum dolor sit amet,<br />
+                  consecter adipisicing elit.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="./john.jpg"
+                    alt="profile pic"
+                    class="profile image" />
+                </td>
+                <td>John Doe</td>
+                <td>johne.doe@foo.com</td>
+                <td>01 800 2000</td>
+                <td>
+                  Blanditiis ,aliquid numquam<br />
+                  iure voluptatibus ut maiores
+                  <br />
+                  exlplicabo ducimus neque,<br />
+                  nasciunt rerum perferendis.<br />
+                  inventore.
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img
+                    src="./jane  smith.jpg"
+                    alt="profile pic"
+                    class="profile image" />
+                </td>
+                <td>Jane smith</td>
+                <td>jane.smith@foo.com</td>
+                <td>01 800 2000</td>
+                <td>
+                  Culpa praesentium unde<br />
+                  pariatur fugit eos recusandae<br />
+                  voluptas
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img
+                    src="./john smith.jpg"
+                    alt="profile pic"
+                    class="profile image" />
+                </td>
+                <td>Johne smith</td>
+                <td>john.smith@foo.com</td>
+                <td>01 800 2000</td>
+                <td>
+                  Aut voluptatem accusantium,<br />
+                  eveniet ,sapiente quaerat<br />
+                  adipisci consequatur maxime<br />
+                  temporibus quas ,dolorem <br />
+                  impedit
+                </td>
+              </tr>
+            </tbody>
+          </tr>
+        </thead>
+      </table>
+    </main>
+  </body>
+</html>
