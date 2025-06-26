@@ -9,6 +9,9 @@
     table {
       border: 1px solid black;
       border-collapse: collapse;
+      text-align: center;
+      margin: 0;
+      height: 10hv;
     }
     td,
     th {
@@ -16,32 +19,40 @@
       padding: 10px;
       width: 100px;
     }
+    .btn {
+      border-top: none;
+    }
+    .bbn {
+      border-bottom: none;
+    }
   </style>
   <body>
-    <h1>infoxygen <span style="color: blueviolet">time table</span></h1>
+    <table>
+      
+    <h1>   Infoxygen  time table</h1>
     <table>
       <thead>
         <tr>
-          <th></th>
-          <th>I</th>
-          <th>II</th>
-          <th>III</th>
-          <th>12.00-12.40</th>
-          <th>IV</th>
-          <th>V</th>
-          <th>VI</th>
-          <th>VII</th>
+          <th class="bbn"></th>
+          <th class="bbn">I</th>
+          <th class="bbn">II</th>
+          <th class="bbn">III</th>
+          <th rowspan="2">12.00-12.40</th>
+          <th class="bbn">IV</th>
+          <th class="bbn">V</th>
+          <th class="bbn">VI</th>
+          <th class="bbn">VII</th>
         </tr>
         <tr>
-          <th>Day</th>
-          <th>9.30-10.20</th>
-          <th>10.20-11.10</th>
-          <th>11.10-12.00</th>
-          <th>12.00-12.40</th>
-          <th>12.40-1.30</th>
-          <th>1.30-2.20</th>
-          <th>2.20-3.10</th>
-          <th>3.10-4.00</th>
+          <th class="btn">Day/period</th>
+          <th class="btn">9.30-10.20</th>
+          <th class="btn">10.20-11.10</th>
+          <th class="btn">11.10-12.00</th>
+
+          <th class="btn">12.40-1.30</th>
+          <th class="btn">1.30-2.20</th>
+          <th class="btn">2.20-3.10</th>
+          <th class="btn">3.10-4.00</th>
         </tr>
       </thead>
       <tbody>
@@ -49,67 +60,62 @@
           <td><strong>Monday</strong></td>
           <td>Eng</td>
           <td>Math</td>
-          <td>chem</td>
-          <td>Lunch</td>
-          <td>Lab</td>
-          <td>Lab</td>
-          <td>Lab</td>
-          <td>phi</td>
+          <td>che</td>
+          <td rowspan="6" >
+            <strong> L <br />U <br />
+              N<br />C<br />H</strong> 
+            
+          </td>
+          <td colspan="3">Lab</td>
+
+          <td>phy</td>
         </tr>
         <tr>
-          <td>Tuesday</td>
-          <td>Lab</td>
-          <td>Lab</td>
-          <td>Lab</td>
-          <td>Lunch</td>
+          <td><strong>Tuesday</strong></td>
+          <td colspan="3">Lab</td>
+
           <td>Eng</td>
-          <td>Chem</td>
+          <td>Che</td>
           <td>Math</td>
           <td>Sports</td>
         </tr>
         <tr>
-          <td>Wednesday</td>
+          <td><strong>Wednesday</strong></td>
           <td>Math</td>
           <td>phy</td>
           <td>Eng</td>
-          <td>Lunch</td>
-          <td>chem</td>
-          <td>chem</td>
-          <td>library</td>
-          <td>library</td>
+
+          <td>che</td>
+          <td colspan="3">library</td>
         </tr>
         <tr>
-          <td>Thursday</td>
+          <td><strong>Thursday</strong></td>
           <td>phy</td>
           <td>Eng</td>
-          <td>chem</td>
-          <td>Lunch</td>
-          <td>Lab</td>
-          <td>Lab</td>
-          <td>lab</td>
+          <td>che</td>
+
+          <td colspan="3">Lab</td>
+
           <td>Math</td>
         </tr>
         <tr>
-          <td>Friday</td>
-          <td>12:00 - 1:00</td>
-          <td>Art</td>
-          <td>Mr. Wilson</td>
-          <td>501</td>
-          <td>502</td>
-          <td>503</td>
-          <td>504</td>
-          <td>505</td>
+          <td><strong>Friday</strong></td>
+          <td colspan="3">Lab</td>
+
+          <td>Math</td>
+          <td>che</td>
+          <td>Eng</td>
+          <td>phy</td>
         </tr>
         <tr>
-          <td>Saturday</td>
-          <td>1:00 - 2:00</td>
-          <td>Physical Education</td>
-          <td>Ms. Taylor</td>
-          <td>601</td>
-          <td>602</td>
-          <td>603</td>
-          <td>604</td>
-          <td>605</td>
+          <td><strong>Saturday</strong></td>
+          <td>Eng</td>
+          <td>che</td>
+          <td>Math</td>
+
+          <td colspan="3">Seminar</td>
+
+          <td>Sports</td>
         </tr>
       </tbody>
     </table>

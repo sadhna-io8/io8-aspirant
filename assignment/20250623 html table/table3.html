@@ -7,130 +7,135 @@
   </head>
   <style>
     * {
-      margin: 0;
-      padding: 0;
+      margin: 10px;
+      padding: 10px;
       box-sizing: border-box;
     }
-    .table-container {
-      border: 1px solid black;
-      height: 10px;
-      width: 10px;
+    .main-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #347985;
     }
-    Table {
-      border: 1px solid black;
+    table {
       border-collapse: collapse;
-      padding: 10px;
+      width: 100%;
+      margin: o;
+      background-color: #c7e4e6;
+      font-size: 20px;
     }
-    tr {
-      border: 1px solid black;
-      border-collapse: collapse;
-      padding: 10px;
+
+    tr:nth-child(even) {
+      background-color: #97bcc3;
     }
-    td {
-      border: 1px solid black;
-      padding: 10px;
-    }
-    th {
-      background-color: rgb(19, 19, 74);
+    .text {
+      background-color: rgb(7, 77, 84);
       color: wheat;
       padding: 10px;
-    }
-    .profile-pic {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      object-fit: cover;
+      font-size: 50px;
     }
   </style>
-  <body bgcolor="lightblue">
+
+  <body background-color: #347985>
     <main class="main-container">
       <table>
         <thead>
           <tr>
-            <th class="text" colspan="5">User</th>
-
-            <tbody>
-              <tr>
-                <td>Picture</td>
-                <td>Name</td>
-                <td>Email</td>
-                <td>Phone</td>
-                <td>Comments</td>
-              </tr>
-
-              <tr>
-                <td>
-                  <img
-                    src="./jane.img"
-                    alt="profile pic"
-                    class="profile image" />
-                </td>
-                <td>Jane Doe</td>
-                <td>jane.doe@foo.com</td>
-                <td>01 800 2000</td>
-                <td>
-                  Loren ipsum dolor sit amet,<br />
-                  consecter adipisicing elit.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img
-                    src="./john.jpg"
-                    alt="profile pic"
-                    class="profile image" />
-                </td>
-                <td>John Doe</td>
-                <td>johne.doe@foo.com</td>
-                <td>01 800 2000</td>
-                <td>
-                  Blanditiis ,aliquid numquam<br />
-                  iure voluptatibus ut maiores
-                  <br />
-                  exlplicabo ducimus neque,<br />
-                  nasciunt rerum perferendis.<br />
-                  inventore.
-                </td>
-              </tr>
-
-              <tr>
-                <td>
-                  <img
-                    src="./jane  smith.jpg"
-                    alt="profile pic"
-                    class="profile image" />
-                </td>
-                <td>Jane smith</td>
-                <td>jane.smith@foo.com</td>
-                <td>01 800 2000</td>
-                <td>
-                  Culpa praesentium unde<br />
-                  pariatur fugit eos recusandae<br />
-                  voluptas
-                </td>
-              </tr>
-
-              <tr>
-                <td>
-                  <img
-                    src="./john smith.jpg"
-                    alt="profile pic"
-                    class="profile image" />
-                </td>
-                <td>Johne smith</td>
-                <td>john.smith@foo.com</td>
-                <td>01 800 2000</td>
-                <td>
-                  Aut voluptatem accusantium,<br />
-                  eveniet ,sapiente quaerat<br />
-                  adipisci consequatur maxime<br />
-                  temporibus quas ,dolorem <br />
-                  impedit
-                </td>
-              </tr>
-            </tbody>
+            <th class="text"></th>
+            <th class="text"></th>
+            <th class="text">USER</th>
+            <th class="text"></th>
+            <th class="text"></th>
+          </tr>
+          <tr>
+            <th>Picture</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Comments</th>
           </tr>
         </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="./jane.img"
+                alt="profile pic"
+                class="profile image"
+                width="100px"
+                height="100px" />
+            </td>
+            <td>Jane Doe</td>
+            <td>jane.doe@foo.com</td>
+            <td>01 800 2000</td>
+            <td>
+              Loren ipsum dolor sit amet,<br />
+              consecter adipisicing elit.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="./john.jpg"
+                alt="profile pic"
+                class="profile image"
+                width="100px"
+                height="100px" />
+            </td>
+            <td>John Doe</td>
+            <td>johne.doe@foo.com</td>
+            <td>01 800 2000</td>
+            <td>
+              Blanditiis ,aliquid numquam<br />
+              iure voluptatibus ut maiores
+              <br />
+              exlplicabo ducimus neque,<br />
+              nasciunt rerum perferendis.<br />
+              inventore.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <img
+                src="./jane  smith.jpg"
+                alt="profile pic"
+                class="profile image"
+                width="100px"
+                height="100px" />
+            </td>
+            <td>Jane smith</td>
+            <td>jane.smith@foo.com</td>
+            <td>01 800 2000</td>
+            <td>
+              Culpa praesentium unde<br />
+              pariatur fugit eos recusandae<br />
+              voluptas
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <img
+                src="./john smith.jpg"
+                alt="profile pic"
+                class="profile image"
+                width="100px"
+                height="100px" />
+            </td>
+            <td>Johne smith</td>
+            <td>john.smith@foo.com</td>
+            <td>01 800 2000</td>
+            <td>
+              Aut voluptatem accusantium,<br />
+              eveniet ,sapiente quaerat<br />
+              adipisci consequatur maxime<br />
+              temporibus quas ,dolorem <br />
+              impedit
+            </td>
+          </tr>
+        </tbody>
       </table>
     </main>
   </body>
