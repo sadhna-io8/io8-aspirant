@@ -1,0 +1,39 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main-contnair {
+  background-color: antiquewhite;
+  padding: 0%;
+  margin: 1%;
+}
+.file {
+  margin: 10px;
+  padding: 0%;
+  display: inline-block;
+}
+.logo {
+  margin-left: 400px;
+}
+.contect-phone {
+  background-color: blue;
+}
+
+.content {
+  padding: 5px;
+  margin: 2px;
+  display: inline-block;
+}
+
+.contect-phone-no {
+  color: white;
+  display: inline-block;
+}
+.contect-email-id {
+  color: white;
+  display: inline-block;
+}
+.phone-logo {
+  margin-left: 450px;
+}

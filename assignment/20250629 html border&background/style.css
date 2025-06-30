@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.body {
+  background-color: antiquewhite;
+}
+.main {
+  background-color: bisque;
+  height: 80v;
+}
+.main-contnair {
+  width: 60%;
+  margin: auto;
+  background-color: rgb(247, 246, 245);
+}
+
+.font-text {
+  background-color: rgb(176, 175, 175);
+  font-size: xxx-large;
+  margin: 1%;
+
+  /* width: 100px; */
+  /* height: 100px; */
+}
+.file {
+  margin: 10px;
+  height: 280px;
+  width: 280px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+}
+.text-1 {
+  background-image: url(./picture/font1.jpg);
+  background-size: auto;
+  font-family: cursive;
+}
+
+.text-2 {
+  background-color: rgb(104, 56, 148);
+  font-family: fantasy;
+}
+.text-4 {
+  background-image: url(./picture/font8.jpg);
+  background-color: aqua;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.text-5 {
+  background-image: url(./picture/font2.jpg);
+  background-size: cover;
+}
+.text-6 {
+  background-color: aquamarine;
+  font-family: times;
+}
+.text-7 {
+  background-image: url(./picture/font3.jpg);
+}
+.text-8 {
+  background-color: brown;
+  font-family: times;
+}
+.text-9 {
+  background-image: url(./picture/font7.jpg);
+  font-family: times;
+}
+.text-10 {
+  background-color: rgb(25, 157, 157);
+  font-family: times;
+}
+.text-11 {
+  background-image: url(./picture/font6.jpg);
+  font-family: times;
+}
+.text-12 {
+  background-image: url(./picture/font4.jpg);
+  font-family: cursive;
+}
+.text-13 {
+  background-image: url(./picture/font8.jpg);
+  font-family: times;
+}
+.text-14 {
+  background-image: url(./picture/font9.jpg);
+  font-family: "Times New Roman", Times, serif;
+}
+.text-15 {
+  background-image: url(./picture/font5.jpg);
+  font-family: times;
+}
+.text-16 {
+  background-image: url(./picture/font\ 5.jpg);
+}
