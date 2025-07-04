@@ -1,95 +1,145 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-.body {
-  background-color: antiquewhite;
-}
-.main {
+
+main {
   background-color: bisque;
-  height: 80v;
 }
 .main-contnair {
-  width: 60%;
+  background-color: rgb(228, 216, 200);
+  width: 50%;
+
   margin: auto;
-  background-color: rgb(247, 246, 245);
 }
 
-.font-text {
-  background-color: rgb(176, 175, 175);
-  font-size: xxx-large;
-  margin: 1%;
-
-  /* width: 100px; */
-  /* height: 100px; */
-}
 .file {
-  margin: 10px;
-  height: 280px;
-  width: 280px;
+  background-color: rgb(133, 232, 199);
+  margin: 5px;
+  height: 250px;
+  width: 250px;
   display: inline-block;
+  padding: 10px;
   text-align: center;
-  border: 1px solid black;
-}
-.text-1 {
-  background-image: url(./picture/font1.jpg);
-  background-size: auto;
-  font-family: cursive;
+  font-size: 40px;
 }
 
-.text-2 {
-  background-color: rgb(104, 56, 148);
-  font-family: fantasy;
+.file-1 {
+  background-image: url(./picture/font1.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.text-4 {
+
+.file-2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: rgb(104, 56, 148);
+  font-family: times;
+}
+.file-3 {
+  background-image: url(./picture/images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: rgb(104, 56, 148);
+  font-family: times;
+}
+.file-4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   background-image: url(./picture/font8.jpg);
   background-color: aqua;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.text-5 {
+.file-5 {
   background-image: url(./picture/font2.jpg);
   background-size: cover;
+  color: white;
 }
-.text-6 {
+.file-6 {
+  background-image: url(./picture/doremon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   background-color: aquamarine;
   font-family: times;
 }
-.text-7 {
+.file-7 {
   background-image: url(./picture/font3.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.text-8 {
+.file-8 {
   background-color: brown;
   font-family: times;
+  color: white;
 }
-.text-9 {
+.file-9 {
   background-image: url(./picture/font7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   font-family: times;
 }
-.text-10 {
+.file-10 {
   background-color: rgb(25, 157, 157);
   font-family: times;
+  color: white;
 }
-.text-11 {
+.file-11 {
   background-image: url(./picture/font6.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
   font-family: times;
 }
-.text-12 {
+.file-12 {
   background-image: url(./picture/font4.jpg);
-  font-family: cursive;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
 }
-.text-13 {
+.file-13 {
   background-image: url(./picture/font8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   font-family: times;
 }
-.text-14 {
-  background-image: url(./picture/font9.jpg);
+.file-14 {
+  background-image: url(./picture/font10.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
   font-family: "Times New Roman", Times, serif;
 }
-.text-15 {
+.file-15 {
   background-image: url(./picture/font5.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
   font-family: times;
 }
-.text-16 {
+.file-16 {
+  color: white;
   background-image: url(./picture/font\ 5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.file-17 {
+  color: white;
+  background-image: url(./picture/font\ 11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.file-18 {
+  color: white;
+  background-image: url(./picture/download\ 4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

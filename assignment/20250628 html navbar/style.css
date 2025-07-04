@@ -6,12 +6,14 @@
 .main-contnair {
   background-color: antiquewhite;
   padding: 0%;
-  margin: 1%;
+  margin: auto;
 }
 .file {
-  margin: 10px;
+  margin: 1px;
   padding: 0%;
   display: inline-block;
+  border-right: 2px solid;
+  padding: 5px;
 }
 .logo {
   margin-left: 400px;
@@ -35,5 +37,5 @@
   display: inline-block;
 }
 .phone-logo {
-  margin-left: 450px;
+  margin-left: 400px;
 }

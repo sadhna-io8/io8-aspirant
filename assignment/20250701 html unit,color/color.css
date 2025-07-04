@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+.file {
+  margin: auto;
+  padding-top: 50px;
+  width: 70%;
+  display: flex;
+}
+.symbol {
+  padding-left: 50px;
+  display: flex;
+  /* height: 10px; */
+}
+
+.red {
+  font-size: 30px;
+  height: 50px;
+  width: 10px;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+}
+.tom {
+  margin-left: 750px;
+  border-radius: 10px;
+  background-color: rgb(37, 37, 152);
+  padding-right: 10px;
+}
+.menu {
+  display: inline;
+  font-size: 30px;
+  display: flex;
+  padding-left: 250px;
+  gap: 16px; /* spacing between items */
+  flex-wrap: wrap; /* optional: wrap to next line on small screens */
+  align-items: center;
+}
+
+.charset {
+  width: 2100px;
+  height: 640px;
+  background-color: rgb(243, 173, 93);
+}
+.chevron {
+  margin: auto;
+  padding: 200px;
+  width: 70%;
+  text-align: center;
+  height: 640px;
+
+  background-color: rgb(227, 133, 18);
+}
+.item {
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  text-align: right;
+}
+.APPLE {
+  padding-left: 500px;
+}
+
+.mango {
+  display: flex;
+  justify-content: right; /* center horizontally */
+  align-items: center; /* center vertically if height is set */
+  gap: 20px;
+  padding-right: 400px;
+  height: 80px;
+  background-color: rgb(85, 5, 85);
+}
+.graphes {
+  padding-right: 300px;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
